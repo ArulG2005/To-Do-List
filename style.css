@@ -1,0 +1,52 @@
+.html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#12C2E9,#F64F59);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+   
+}
+.sec{
+    background-color: rgb(209, 222, 107);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+header{
+    
+}
+.input{
+    margin: 10px;
+    border-radius: 30px;
+}
+button{
+    background-color: rgb(91, 205, 91);
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.dis{
+    margin: 20px;
+    position:sticky;
+    right: 450px;
+   text-align:left;
+}
+@media all and (max-width:400px){
+    .sec{
+        background-color: rgb(209, 222, 107);
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+}
